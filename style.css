@@ -221,6 +221,7 @@ main .galerie .misky_3 img{
     text-align: center;
     width: 30%;
     line-height: 40px;
+    border-radius: 5px;
 }
 @media(max-width:750px){
     .formular form textarea{
@@ -252,7 +253,16 @@ main .galerie .misky_3 img{
 .formular input[type="button"]{
     width: 100px;
     line-height: 30px;
+    background-color: #8a5a44;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5s;
 }
 
+.formular input[type="button"]:hover{
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline;
+}
 
 

@@ -102,7 +102,10 @@ header .obrazek .menu a:hover{
 
 
 
-
+main{
+    background-color: #8a5a44;
+    height: auto;
+}
 
 
 main .galerie{
@@ -117,6 +120,7 @@ main .galerie .misky_1{
 
 main .galerie .misky_1 img{
     width: 33vw;
+    border-radius: 5px;
 }
 
 
@@ -129,6 +133,7 @@ main .galerie .misky_2{
 
 main .galerie .misky_2 img{
     width: 33vw;
+    border-radius: 5px;
 }
 
 
@@ -140,4 +145,5 @@ main .galerie .misky_3{
 
 main .galerie .misky_3 img{
     width: 33vw;
+    border-radius: 5px;
 }

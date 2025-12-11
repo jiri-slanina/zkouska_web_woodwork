@@ -61,7 +61,7 @@ header .obrazek{
 }
 
 header .obrazek img{
-    width: 85%;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -69,7 +69,7 @@ header .obrazek img{
 header .obrazek .menu{
     position: relative;
     top: -8vw;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -125,7 +125,7 @@ main .galerie .misky_1{
 
 main .galerie .misky_1 img{
     width: 33vw;
-    border-radius: 5px;
+    border-radius: 800px;
 }
 
 
@@ -138,7 +138,7 @@ main .galerie .misky_2{
 
 main .galerie .misky_2 img{
     width: 33vw;
-    border-radius: 5px;
+    border-radius: 800px;
 }
 
 
@@ -150,7 +150,7 @@ main .galerie .misky_3{
 
 main .galerie .misky_3 img{
     width: 33vw;
-    border-radius: 5px;
+    border-radius: 800px;
 }
 
 
@@ -162,6 +162,8 @@ main .galerie .misky_3 img{
     display: inline-block;
     margin: 0 auto;
     text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-size: cover;
 }
 
 .section h2{
@@ -173,6 +175,7 @@ main .galerie .misky_3 img{
 .section p{
     color: #ffffffa6;
     margin-bottom: 5vw;
+    font-size: 20px;
 }
 
 
@@ -266,3 +269,33 @@ main .galerie .misky_3 img{
 }
 
 
+
+
+
+table{
+    width: 90%;
+    margin: 0 auto;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3) ;
+    border-radius: 10px;
+    padding: 8px;
+    line-height: 2vw;
+    text-align: center;
+}
+
+table th{
+    color: #fff;
+    background-color: #3c096c;
+    font-size: 20px;
+    
+}
+table td{
+    background-color: #c77dff;
+    border-radius: 8px;
+}
+
+
+.tabulka{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(img/pozadi.jpg);
+}
